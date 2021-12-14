@@ -1,0 +1,86 @@
+@import url(var.css);
+.header{
+    background-color: var(--colorheader);
+    color: var(--colortexto);
+}
+.main{
+    background-color: var(--colormain);
+}
+.disflex{
+    display: flex;
+}
+.flexrow{
+    flex-direction: row;
+}
+.flexcolumn{
+    flex-direction: column;
+}
+.justi-C{
+    justify-content: center;
+}
+.justi-SA{
+    justify-content: space-around;
+}
+.justi-FS{
+    justify-content: flex-start;
+}
+.justi-FE{
+    justify-content: flex-end;
+}
+.justi-SB{
+    justify-content: space-between;
+}
+.justi-SE{
+    justify-content: space-evenly;
+}
+.aling-i-c{
+    align-items: center;
+}
+.aling-i-fs{
+    align-items: flex-start;
+}
+.aling-i-fe{
+    align-items: flex-end;
+}
+.aling-i-s{
+    align-items: stretch;
+}
+.h15{
+    height: 15vh;
+}
+.h25{
+    height: 25vh;
+}
+.h50{
+    height: 50vh;
+}
+.h55{
+    height: 55vh;
+}
+.h75{
+    height: 75vh;
+}
+.h100{
+    height: 100vh;
+}
+.glow1{
+    flex-grow: 1;
+}
+.glow0{
+    flex-grow: 0;
+}
+.m5{
+    margin: 5px;
+}
+.m10{
+    margin: 10px;
+}
+.m15{
+    margin: 15px;
+}
+.shrink{
+    flex-shrink: 2 ;
+}
+.flex150{
+    flex: 150%;
+}

@@ -1,0 +1,14 @@
+@import url(global.css);
+.box{
+    box-shadow: 2px 2px 2px 1px black ;
+    background-color: var(--colortexto);
+}
+main{
+    margin: auto;
+    background-color: var(--colormain);
+    height: 500px;
+}
+body{
+    background-color: black;
+    
+}
